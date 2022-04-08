@@ -104,7 +104,7 @@ console.log("Desafio 8")
 
 function tabuada(fator) {
     for (let i = 1; i <= 10; i++)
-    console.log(fator + " x " + i + " = " + (fator*i));
+    console.log(`${fator} x ${i} = ${fator*i}`)
 }
 
 tabuada(5)
